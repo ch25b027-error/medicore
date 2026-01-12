@@ -16,7 +16,7 @@ export default function Features() {
 
       <Fadeup className='delay-200'>
          
-         <div className='flex justify-center items-center pb-2 mb-6 border-1 rounded-3xl bg-indigo-50 border-purple-500'><Online /></div>
+         <div className='flex justify-center items-center pb-2 mb-6 '><Online /></div>
             
       </Fadeup>
 
@@ -80,3 +80,4 @@ export default function Features() {
     </section>
   )
 }
+
