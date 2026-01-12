@@ -13,7 +13,7 @@ export default function hamburger() {
       size={24}
     />
 
-    {open && <div className="fixed absolute top-0 right-0 w-[80%] h-screen pt-4 pr-8 backdrop-blur-xl text-gray-700 bg-gradient-to-br from-purple-100/98 via-blue-100/98 to-orange-100/98">
+    {open && <div className="fixed absolute top-0 right-0 w-[85%] h-screen pt-4 pr-8 backdrop-blur-xl text-gray-700 bg-gradient-to-br from-purple-100/98 via-blue-100/98 to-orange-100/98">
      <div className="flex justify-end pl-16">
       <Hamburger
       toggled={open}
@@ -44,5 +44,6 @@ export default function hamburger() {
      </div>
   );
 };
+
 
 
